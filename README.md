@@ -22,7 +22,7 @@ public partial class AhgodaBookingService : System.Web.UI.Page
     }
     protected void CalendarCheckIN_SelectionChanged(object sender, EventArgs e)
     {
-        TBcheckin.Text = CalendarCheckIN.SelectedDate.ToString("dd/MM/yyyy");
+        TBcheckin.Text = CalendarCheckIN.SelectedDate.ToString("dd-yyyy");
     }
     protected void CalendarCheckOut_SelectionChanged(object sender, EventArgs e)
     {
