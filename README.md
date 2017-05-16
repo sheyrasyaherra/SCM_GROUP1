@@ -54,6 +54,9 @@ public partial class AhgodaBookingService : System.Web.UI.Page
         LBcheckout0.Text = TBcheckout.Text;
         LBday0.Text = TBday.Text;
         LBadults0.Text = TBadult.Text;
+        
+        
+        ok
         LBchildren0.Text = TBchildren.Text;
         LBroom0.Text = TBroom.Text;
 
