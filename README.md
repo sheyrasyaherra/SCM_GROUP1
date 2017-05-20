@@ -34,7 +34,7 @@ public partial class AhgodaBookingService : System.Web.UI.Page
         float price;
         float afterdiscount;
         int day;
-        int number;
+        int number1;
 
 
         LBnotice.Text = "Thankyou for your booking, here is your details booking information";
