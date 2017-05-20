@@ -15,8 +15,10 @@
         <br class="style19" />
         <span class="style19">Password : </span>
         <asp:TextBox ID="txtpassword" runat="server" CssClass="style19"></asp:TextBox>
+        <br /> <br />
         <br />
         <asp:Label ID="Label1" runat="server"></asp:Label>
+        <br /> <br />
         <br />
         <span class="style21">
         <br />
