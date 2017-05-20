@@ -126,9 +126,9 @@ public partial class AhgodaBookingService : System.Web.UI.Page
             if (DDLhotel.SelectedValue == "Rio Malacca")
             {
                 day = int.Parse(TBday.Text);
-                price = day * 150;
+                price = day * 250;
                 LBbeforediscount0.Text = Convert.ToString(price);
-                discount = price * 25 / 100;
+                discount = price * 30 / 100;
                 afterdiscount = price - discount;
                 LBafterdiscount0.Text = Convert.ToString(afterdiscount);
             }
@@ -136,9 +136,9 @@ public partial class AhgodaBookingService : System.Web.UI.Page
             if (DDLhotel.SelectedValue == "Hill KL")
             {
                 day = int.Parse(TBday.Text);
-                price = day * 150;
+                price = day * 250;
                 LBbeforediscount0.Text = Convert.ToString(price);
-                discount = price * 25 / 100;
+                discount = price * 30 / 100;
                 afterdiscount = price - discount;
                 LBafterdiscount0.Text = Convert.ToString(afterdiscount);
             }
