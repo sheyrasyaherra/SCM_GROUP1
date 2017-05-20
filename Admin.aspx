@@ -326,4 +326,4 @@
     </asp:SqlDataSource>
 </asp:Content>
 
-
+//add admin name and id for update
