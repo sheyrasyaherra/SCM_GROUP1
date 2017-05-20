@@ -191,3 +191,6 @@ public partial class AhgodaBookingService : System.Web.UI.Page
         TBcheckout.Text = "";
     }
 }
+
+// we need to add a new function here.
+// edited by nasrullah
